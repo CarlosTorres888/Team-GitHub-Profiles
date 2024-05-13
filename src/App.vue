@@ -1,10 +1,13 @@
 <script setup>
+import GithubCard from './components/GithubCard.vue';
 </script>
 
 <template>
- <h1 class="text-3xl font-bold underline" >Hola mundo</h1>
+  <div class="">
+    <GithubCard username="CarlosTorres888" />
+    <GithubCard username="rivalcoba"/>
+    <GithubCard username="BrunoPCH"/>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
